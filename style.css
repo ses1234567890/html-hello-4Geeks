@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+    margin: auto;
+    max-width: 500px;
+}
+
+.html-icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px 0px 0px 10px;
+}
+
+.header-title {
+    display: flex;
+}
+
+.dot-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 325px;
+}
+
+.post-header {
+    display: flex;
+}
+
+.post-image img {
+    width: 500px;
+}
+
+.post-comment {
+    padding: 0px 10px 5px 20px;
+}
+
