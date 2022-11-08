@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .post {
@@ -8,25 +9,27 @@ body {
     max-width: 500px;
 }
 
-.html-icon {
-    width: 25px;
-    height: 25px;
-    margin: 10px 0px 0px 10px;
+.post-header {
+    display: flex;
+}
+
+#html-icon {
+    margin: 27px 5px 0px 10px;
 }
 
 .header-title {
-    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.dot-icon {
-    width: 25px;
-    height: 25px;
-    margin-top: 10px;
-    padding-left: 325px;
+.header-title p {
+    margin: 0;
+    padding-left: 5px;
 }
 
-.post-header {
-    display: flex;
+#triple-dot {
+    padding-left: 370px;
+    padding-top: 27px;
 }
 
 .post-image img {
@@ -35,5 +38,18 @@ body {
 
 .post-comment {
     padding: 0px 10px 5px 20px;
+}
+
+.comment-icons {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.comment-icons i {
+    padding-right: 5px;
+}
+
+.comment-icons i:nth-of-type(4) {
+    padding-left: 310px;
 }
 
